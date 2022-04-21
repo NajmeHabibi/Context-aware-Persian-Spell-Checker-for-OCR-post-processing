@@ -1,14 +1,14 @@
-#OCR Post Processing
+# OCR Post Processing
 This is a Context-aware Persian Spell Checker for OCR post-processing.
 
 
-###- How to run?
+### - How to run?
 1. For Spell Checking run **Bert-spellchecker.py**, in the main function:
    * **Spell_checking_for_csv** function does spell checking for each row in CSV file
    * **Spell_checking_for_text** function does spell checking just for an input text
 2. In order to create a CSV data for test and train run **data_creator.py**
 
-###- How does It work?
+### - How does It work?
 1. For a given text spell checker finds misspelled words by **get_misspelled_words_and_masked_text** method,
    * In this method original text split into words (by " ")
    * Each word get checked in dictionary,
