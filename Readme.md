@@ -3,6 +3,14 @@
 
 ## This is a Context-aware Persian Spell Checker for OCR post-processing
 
+### Introduction
+Spell Correction is an important and at the same time challenging task because the optimal result requires the ability to understand language at the human level. In this project, we mainly focus on correcting OCR outputs which extract text from an image or Pdf. There are many different ways to design a spell checker. We go for dictionary-based and machine learning methods. Context-aware spell checking is the most important feature of our proposed model. In fact, this model is able to correct spelling errors according to the general meaning of the sentence by using BERT model. 
+
+## Results
+| DataSet | Detection Accuracy | Correction Accuracy|
+|---------|--------------------|--------------------|
+| `10000 Sentence on Persian WikiPedia` | %76.7 | %69.3|
+
 ### - How to run?
 1. For Spell Checking run **Bert-spellchecker.py**, in the main function:
    * **Spell_checking_for_csv** function does spell checking for each row in CSV file
