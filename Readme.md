@@ -1,6 +1,7 @@
-# OCR Post Processing
-This is a Context-aware Persian Spell Checker for OCR post-processing.
+![spell checker](https://user-images.githubusercontent.com/42568062/174132703-e5afc1c2-8076-4493-8706-5a8c657f0404.png)
 
+
+## This is a Context-aware Persian Spell Checker for OCR post-processing
 
 ### - How to run?
 1. For Spell Checking run **Bert-spellchecker.py**, in the main function:
