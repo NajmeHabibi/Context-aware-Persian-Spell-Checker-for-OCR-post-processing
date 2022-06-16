@@ -9,7 +9,13 @@ Spell Correction is an important and at the same time challenging task because t
 ## Results
 | DataSet | Detection Accuracy | Correction Accuracy|
 |---------|--------------------|--------------------|
-| `10000 Sentence on Persian WikiPedia` | %76.7 | %69.3|
+| `10,000 Sentences on Persian WikiPedia` | %76.7 | %69.3|
+
+#### Example
+- Code:
+![carbon](https://user-images.githubusercontent.com/42568062/174139727-ccca640e-cae1-4363-8b9a-8f998f18b510.png)
+- Output
+![carbon](https://user-images.githubusercontent.com/42568062/174139898-00be62c3-6281-4ed3-b792-317889d74d98.png)
 
 ### - How to run?
 1. For Spell Checking run **Bert-spellchecker.py**, in the main function:
